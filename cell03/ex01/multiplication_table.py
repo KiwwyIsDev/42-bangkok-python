@@ -2,5 +2,7 @@
 
 num = int(input())
 
-for i in range(0, 10):
+i = 0
+while i < 10:
     print(f"{i} x {num} = {i * num}")
+    i += 1
