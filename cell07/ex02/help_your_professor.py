@@ -2,7 +2,7 @@
 
 
 def average(classes: dict):
-    scores = [score for name, score in classes.items()]
+    scores = [score for score in classes.values()]
     return sum(scores) / len(scores)
 
 
